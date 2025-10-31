@@ -1,0 +1,184 @@
+/* By changing the color of body, we can change all the text color at once. If we then change the color of a specific element like h1, this will overwrite the color but the rest will remain the same. */
+
+/*=====
+More
+=====*/
+.m-body {
+	 background: darksalmon;
+}
+#title2 {
+	color:lightblue;
+	font-size: 250px;
+}
+.main {
+	color: aquamarine;
+	font-size: 50px;
+	background: hotpink;
+	width: 590px;
+}
+
+/*=====
+Dreamer
+=====*/
+.d-body {
+	background: #333;
+}
+/* 1.margin->one value can apply to 4 values. Doesn't need to write it 4 times. 
+   2.Margin->empty space. 
+     Padding->more background.
+   3.Use margin-left:auto and margin-right: auto to make the selected article stucks dead middle. It will automatically adjusted based on the screen size. This setting can only work if the width is set together. Otherwise you won't see the difference.
+   4.The shorthand for above is margin: 0 auto;
+   5.Important note for margin auto: this will not work on the top and bottom to center vertically
+   6.The way to get rid of the small space on all four sides is to set bady {margin: 0;} 
+   7.The way to set columns is to make a parent and childs column and set the parent column to display: flex;
+*/
+.d-h1{
+	color: #333;
+	background: white;
+	font-size: 60px;
+	font-weight: bold;
+	width:270px;
+	margin: 30px;
+	padding: 20px;
+}
+.d-h2{
+	color: #333;
+	background: lightblue;
+	font-size: 30px;
+	width:300px;
+	margin: 35px;
+	padding: 25px 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* borders: Needs three properties to get a border to work
+	-border-width
+	-border-style
+	-border-color
+	
+	shorthand for border(the order you put them in doesn't matter)
+	example {
+			border: 2px solid pink;
+		}
+	You can also control the border of the different sides independently. 
+	-border-left: 2px solid pink;
+	-border-right: 5px dotted blue;
+	-border-top: 10px double green;
+	-border-bottom: 1px dashed purple;
+ */
+ .d-main{
+	 color: #333;
+ }
+ .d-footer{
+	 width: 300px;
+	 border-left: yellow 5px solid;
+	 border-right: dotted blue 5px;
+	 border-top: 10px double green;
+	 border-bottom: 1px dashed gold;
+	 
+	 margin: 40px;
+	 padding: 10px;
+	 
+	 color: white;
+ }
+ 
+ /*=====
+Coffee Menu
+header p {
+	color: rgb(139, 69, 19);
+	text-align: center;
+	width:600px;
+	margin: auto;
+	font-weight: bold;
+}
+=====*/
+body {
+	background-color: rgb(255, 250, 205);
+	font-size: 21px;
+	margin: 0;
+}
+
+.c-h1 {
+	background-color: rgb(139, 69, 19);
+	color: rgb(255, 250, 205);
+	width: 290px;
+	padding: 20px;
+	margin: 30px;
+}
+
+h2{
+	text-align: center;
+	color: rgb(139, 69, 19);
+}
+.drinks-menu {
+	margin: 100px 0;
+}
+.drinks {
+	display: flex;
+}
+.all-season {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+.summer-only {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+.seasonal-specials {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+
+.dessert {
+	display: flex;
+	margin-bottom: 100px;
+}
+
+.most-of-the-time {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+.summerdesserts {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+.tsubasaswishes {
+	background-color: rgb(0, 100, 0);
+	color: rgb(255, 245, 238);
+	width: 29.3%;
+	margin: 8px 30px;
+	padding: 5px 5px 5px 20px;
+}
+
+h4 {
+	text-align: right;
+}
+
+.c-footer {
+	background-color: hotpink;
+	padding: 15px;
+	color: white;
+}
+footer li {
+	list-style-type: square;
+}
+
+footer h2 {
+	color: white;
+}
